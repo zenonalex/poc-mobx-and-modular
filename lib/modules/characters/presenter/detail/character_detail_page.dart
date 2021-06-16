@@ -25,18 +25,25 @@ class _CharacterDetailPageState
 
   @override
   void initState() {
-    reaction<String>((r) => controller.setName(textName.text), (setName) async {
-      if (controller.name.length == 4) {
-        print(controller.name);
-
+    
+    reaction<bool>((r) => controller.isValid, (isValid) async {
+      if (controller.isValid) {
         return await Flushbar(
-          title: 'Opa!!!',
+          title: 'detail.snackBarTitle'.tr(),
+          message: 'detail.snackBarMessage'.tr(args:[controller.name]),
+          duration: Duration(milliseconds: 1500),
         ).show(context);
+
       }
     });
 
     controller.loadCharacterDetail(widget.imageUrl);
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
   }
 
   @override

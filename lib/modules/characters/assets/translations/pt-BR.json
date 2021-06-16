@@ -8,7 +8,9 @@
        "title":"Página de detalhes",
        "name":"Nome: ",
        "subTitle":"Texto: ",
-       "hint":"Digite aqui um texto"
+       "hint":"Digite aqui um texto",
+       "snackBarTitle":"Opa!",
+       "snackBarMessage":"{} está correto!"
        
     }
  }

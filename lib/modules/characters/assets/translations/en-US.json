@@ -8,6 +8,8 @@
        "title":"Character detail Page",
        "name":"Name: ",
        "subTitle":"Text: ",
-       "hint":"Enter a text"
+       "hint":"Enter a text",
+       "snackBarTitle":"Hey!",
+       "snackBarMessage":"{} is right!"
     }
 }
