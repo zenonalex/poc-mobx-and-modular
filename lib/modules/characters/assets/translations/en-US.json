@@ -1,0 +1,13 @@
+{
+    "characters":{
+       "title":"Character Page",
+       "homeMessage":"Push the button",
+       "loadButton":"Get characters"
+    },
+    "detail":{
+       "title":"Character detail Page",
+       "name":"Name: ",
+       "subTitle":"Text: ",
+       "hint":"Enter a text"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "characters":{
+       "title":"Página de personagens",
+       "homeMessage":"Aperte o botão.",
+       "loadButton":"Carregar personagens"
+    },
+    "detail":{
+       "title":"Página de detalhes",
+       "name":"Nome: ",
+       "subTitle":"Texto: ",
+       "hint":"Digite aqui um texto"
+       
+    }
+ }
