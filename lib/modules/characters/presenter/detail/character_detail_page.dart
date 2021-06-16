@@ -84,7 +84,7 @@ class _CharacterDetailPageState
                           borderSide: BorderSide(
                             width: 3,
                             color:
-                                controller.isValid ? Colors.green : Colors.blue,
+                                controller.isValid ? Colors.green : Colors.red,
                           ),
                         ),
                         border: OutlineInputBorder(),
